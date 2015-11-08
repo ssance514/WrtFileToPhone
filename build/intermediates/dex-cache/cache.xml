@@ -2,11 +2,18 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\daguang\AppData\Local\Android\sdk2\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jar="C:\Users\daguang\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="92e3fc113ec3ee36b64603a38857b95700025633">
-        <dex dex="C:\Coursera\MoCCAadamporter\WrtFileToPhone\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-d3b42a87c513de6eb7cc722205296130f3a2337b.jar" />
+        <dex dex="C:\Coursera\MoCCAadamporter\WrtFileToPhone\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-abd0d6bc046a31b6b2937d089a51a6fe4dd58081.jar" />
+    </item>
+    <item
+        jar="C:\Coursera\MoCCAadamporter\WrtFileToPhone\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Coursera\MoCCAadamporter\WrtFileToPhone\app\build\intermediates\pre-dexed\debug\classes-1a994c7dad51f47613c5c6c0bc41543993ca13fe.jar" />
     </item>
     <item
         jar="C:\Coursera\MoCCAadamporter\WrtFileToPhone\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
@@ -21,13 +28,6 @@
         revision="23.0.0"
         sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
         <dex dex="C:\Coursera\MoCCAadamporter\WrtFileToPhone\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-f2137b06d6193267cd75b969f6f9fad440dbd0cf.jar" />
-    </item>
-    <item
-        jar="C:\Coursera\MoCCAadamporter\WrtFileToPhone\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="C:\Coursera\MoCCAadamporter\WrtFileToPhone\app\build\intermediates\pre-dexed\debug\classes-1a994c7dad51f47613c5c6c0bc41543993ca13fe.jar" />
     </item>
 
 </items>

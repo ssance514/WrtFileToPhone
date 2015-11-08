@@ -72,13 +72,19 @@ public class WrtFileToPhone extends AppCompatActivity {
 
 
 
-        File file = new File(getFilesDir(), "FTC_Battery");
+//        File file = new File(getFilesDir(), "FTC_Battery");
+        File file = new File(getFilesDir(), "FTC_TeleData");
+        File fdir = getFilesDir();
 
         try {
-            FileOutputStream  fileOutputStream = openFileOutput("FTC_TeleData", MODE_PRIVATE);
+            FileOutputStream  fileOutputStream = openFileOutput("FTC_TeleData", MODE_WORLD_READABLE);
+//            FileOutputStream  fileOutputStream = openFileOutput(String.valueOf(file), MODE_APPEND);
             fileOutputStream.write(msg.getBytes());
             fileOutputStream.close();
             Toast.makeText(getApplicationContext(), "message saved!", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), fdir.toString(), Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), getFileStreamPath("FTC_TeleData").toString(), Toast.LENGTH_LONG).show();
+
             editText.setText("");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
